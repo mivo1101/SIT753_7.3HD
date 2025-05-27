@@ -1,0 +1,39 @@
+{
+    "topic_name": "Eating",
+    "articles": [
+        {
+            "title": "Top Street Foods You Must Try in Vietnam",
+            "image": "banhmi.jpeg",
+            "description": "Explore the must-try street foods in Vietnam, from crispy Bánh Mì to steaming Phở, and discover why these flavors are a favorite for both locals and visitors alike.",
+            "link": "/insights/eating/top-street-foods",
+            "overview": "Vietnam is a culinary paradise, and its vibrant street food scene is a testament to the country’s rich cultural heritage. From sizzling skewers to fragrant noodle soups, the street foods of Vietnam offer a tantalizing blend of flavors, textures, and aromas. Here are some must-try dishes that you shouldn’t miss during your visit:",
+            "suggestions": [
+                {
+                    "title": "Bánh Mì",
+                    "text": "Bánh Mì is Vietnam's famous sandwich that perfectly blends French and Vietnamese culinary influences. This crispy baguette is filled with a variety of ingredients, including grilled meats, pâté, pickled vegetables, cilantro, and chili. Each bite offers a delightful crunch and a burst of flavor that showcases the best of Vietnamese street food."
+                },
+                {
+                    "title": "Phở",
+                    "text": "Phở is more than just a dish; it’s a cultural experience. This aromatic noodle soup features a rich broth made from simmered beef or chicken bones, fragrant herbs, and spices. Topped with fresh herbs, bean sprouts, lime, and chili, Phở is enjoyed at any time of the day and is a must-try for any food lover."
+                },
+                {
+                    "title": "Gỏi cuốn",
+                    "text": "Gỏi Cuốn, or fresh spring rolls, are a refreshing choice for those looking for something light yet satisfying. These translucent rice paper rolls are filled with shrimp, pork, fresh herbs, and vermicelli noodles, served with a delicious peanut or hoisin sauce. They are perfect for a quick snack or appetizer."
+                },
+                {
+                    "title": "Bánh Xèo (Vietnamese Pancakes)",
+                    "text": "Bánh Xèo, or Vietnamese pancakes, are savory delights made from rice flour, turmeric, and coconut milk, filled with a mix of shrimp, pork, bean sprouts, and onions. The pancakes are crispy on the outside and soft on the inside, served with fresh herbs and a tangy dipping sauce. They are a popular choice for lunch or dinner."
+                },
+                {
+                    "title": "Cơm Tấm (Broken Rice)",
+                    "text": "Cơm Tấm is a beloved Vietnamese dish made from fractured rice grains, often served with grilled pork, fried egg, pickled vegetables, and fresh herbs. This flavorful and hearty meal is a staple of Vietnamese street food culture and can be found in many eateries throughout the country."
+                },
+                {
+                    "title": "Chè (Vietnamese Sweet Soup)",
+                    "text": "For a sweet treat, try Chè, a popular dessert made with a variety of ingredients, including beans, tapioca, fruits, and coconut milk. Served cold or warm, Chè comes in various forms and flavors, offering a delightful way to cool off after indulging in savory dishes."
+                }
+            ],
+            "conclusion": "Exploring the street food of Vietnam is a delicious journey that allows you to experience the country’s culture and traditions. Each dish tells a story, reflecting the local ingredients and flavors that make Vietnamese cuisine unique. Whether you’re wandering through bustling markets or sitting on a small stool at a roadside stall, be sure to sample these top street foods and savor the tastes of Vietnam."
+        }
+    ]
+}

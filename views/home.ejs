@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="Chau Tra Mi Vo">
+        <meta name="description" content="Welcome to Vietnam">
+        <title>Go Vietnam</title>
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+
+        <link rel="stylesheet" href="govn-home.css">
+        <script src="subscribe.js"></script>
+
+    </head>
+    
+    <body>
+        <header>
+            <h6>Welcome to Vietnam</h6>
+        </header>
+
+        <!--Navbar-->
+        <nav class="navbar navbar-expand-lg bg-white text-black sticky-top">
+            <div class="container">
+                <a class="navbar-brand d-flex align-items-center text-black active me-4" aria-current="page" href="/home">
+                    <img src="govnlogo-yellow.png" alt="Go Vietnam" width="50" height="30" class="d-inline-block align-text-top me-2">
+                    <strong>Go Vietnam</strong>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link text-black me-2" href="/home">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-black me-2" href="/explore" id="exploreDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Explore Vietnam
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="exploreDropdown">
+                                <li><a class="dropdown-item" href="/explore/north">North</a></li>
+                                <li><a class="dropdown-item" href="/explore/central">Central</a></li>
+                                <li><a class="dropdown-item" href="/explore/south">South</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-black me-2" href="/insights">Insights</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-black me-2" href="/contact" id="contactDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Contact Us
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="contactDropdown">
+                                <li><a class="dropdown-item" href="#getintouch">Get In Touch</a></li>
+                                <li><a class="dropdown-item" href="#request">Request a Custom Itinerary</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-black me-2" href="/feedback">Feedback</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        
+        <!--Hero Banner-->
+        <div class="hero">
+            <div class="container">
+                <div class="hero-text">
+                    <h1>Crafting Your Perfect Vietnam Experience</h1>
+                    <div class="search-container">
+                        <form action="/search" method="GET" class="d-flex"> <!-- Add form element -->
+                            <input type="text" name="query" class="form-control search-input" placeholder="Search for destinations, activities..." aria-label="Search" required>
+                            <button type="submit" class="btn search-button" style="position: relative;">
+                                <i class="bi bi-search" style="position: absolute; top: 50%; transform: translateY(-50%); right: 35px;"></i>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <main>
+            <!--Why should you visit Vietnam once in your life?-->
+            <div class="container mt-5 mb-5">
+                <div class="row">
+                    <div class="col-12">
+                        <h2><strong>Why should you visit Vietnam once in your life?</strong></h2>
+                    </div>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-sm-4 d-flex flex-column">
+                        <div class="mb-4" style="padding-right: 50px; padding-top: 25px; text-align: left;">
+                            <h4>
+                                <strong>Is that you?</strong>
+                            </h4>
+                            <ul>
+                                <li>Love Adventure?</li>
+                                <li>Crave Authentic Culture?</li>
+                                <li>Enjoy Delicious Food?</li>
+                                <li>Seek Warm Hospitality?</li>
+                                <li>Dream of Unforgettable Moments?</li>
+                            </ul>
+                            <p>
+                                <strong>No doubt! Come to Vietnam, where your desires come true.</strong> 
+                            </p>
+                        </div>
+                        <div class="pt-2 mb-5">
+                            <img src="hat.jpeg" alt="Vietnamese Cornical-leaf hat" width="250" height="150">
+                        </div>
+                    </div>
+                    <div class="col-sm-8 bg-custom">
+                        <h4>People</h4>
+                        <p>
+                            Vietnam’s people are known for their warmth and hospitality, welcoming travelers with open hearts.
+                            The diverse ethnic communities across the country bring a rich variety of traditions and stories, creating a vibrant cultural tapestry.
+                        </p>
+                        <h4>Cultures</h4>
+                        <p>
+                            Vietnam’s culture is a blend of ancient traditions and modern influences.
+                            From lively festivals to traditional music and art, the country’s heritage is celebrated daily.
+                            The bustling markets and serene temples offer a glimpse into the spiritual and artistic soul of Vietnam.
+                        </p>
+                        <h4>Landscapes</h4>
+                        <p>
+                            Vietnam’s landscapes range from the terraced rice fields of the northern mountains to the lush valleys and winding rivers of the south.
+                            The country’s natural beauty is diverse, with stunning coastal areas, serene rivers, and majestic peaks that captivate every traveler.
+                        </p>        
+                    </div>
+                </div>
+            </div>
+
+            <!--Journey Through Vietnam - Card-->
+            <div class="full-width-bg">
+                <div class="container mt-5 mb-5">
+                    <div class="row">
+                        <div class="col-12 mb-5">
+                            <h2><strong>Journey Through Vietnam</strong></h2>
+                        </div>
+                    </div>
+                    <div class="row g-4">
+                        <div class="col-md-4">
+                            <div class="card custom-card">
+                                <img src="north-card.jpg" class="card-img-top" alt="Northern Vietnam">
+                                <div class="card-body p-4">
+                                    <h5 class="card-title mb-4"><strong>NORTH</strong></h5>
+                                    <p class="card-text mb-4">
+                                        Experience the essence of Northern Vietnam, where ancient traditions blend seamlessly with the natural beauty of rugged mountains, lush valleys, and iconic terraced rice fields.
+                                        The region is known for its vibrant culture, bustling cities, and serene countryside.
+                                    </p>
+                                    <a href="/explore/north" class="btn custom-btn mt-auto">Explore Now!</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="card custom-card">
+                                <img src="central-card.jpg" class="card-img-top" alt="Central Vietnam">
+                                <div class="card-body p-4">
+                                    <h5 class="card-title mb-4"><strong>CENTRAL</strong></h5>
+                                    <p class="card-text mb-4">
+                                        Central Vietnam is a land of contrasts, from its stunning coastline to its historic cities.
+                                        Here, you will find a rich tapestry of culture, with ancient dynasties, imperial cities, and timeless traditions, all set against a backdrop of pristine beaches and dramatic landscapes.
+                                    </p>
+                                    <a href="/explore/central" class="btn custom-btn mt-auto">Explore Now!</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="card custom-card">
+                                <img src="south-card.jpg" class="card-img-top" alt="Southern Vietnam">
+                                <div class="card-body p-4">
+                                    <h5 class="card-title mb-4"><strong>SOUTH</strong></h5>
+                                    <p class="card-text mb-4">
+                                        Southern Vietnam is a dynamic and diverse region, offering everything from the sprawling metropolis of Ho Chi Minh City to the tranquil beauty of the Mekong Delta.
+                                        It is a place where modern life coexists with traditional ways, set amidst tropical landscapes and bustling markets.
+                                    </p>
+                                    <a href="/explore/south" class="btn custom-btn mt-auto">Explore Now!</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--Vietnam's Essence - Carousel-->
+            <div class="container mt-5 mb-5">
+                <div class="row mb-5">
+                    <div class="col-12">
+                        <h2><strong>Vietnam’s Essence</strong></h2>
+                    </div>
+                </div>
+
+                <div class="carousel slide carousel-fade" id="carousel" data-bs-ride="carousel" data-bs-interval="3000">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#carousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                        <button type="button" data-bs-target="#carousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="aodaired-crousel.jpg" class="d-block w-100" alt="Ao Dai">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="field-carousel.png" class="d-block w-100" alt="Green Rice Terrace Field">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="coffee-carousel.jpg" class="d-block w-100" alt="Filter Coffee">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="food-carousel.jpg" class="d-block w-100" alt="Cuisine">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="Comtam-carousel.jpeg" class="d-block w-100" alt="Com Tam">
+                        </div>
+                    </div>
+                    <div class="carousel-caption">
+                        <h3 class="carousel-text">Satisfy Your Senses in Vietnam</h3>
+                        <a href="/insights" class="carousel-link">Explore Now!
+                            <i class="bi bi-arrow-right"></i>
+                        </a>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>    
+            </div>
+
+            <!--Never Miss a Moment in Vietnam - Subcription-->
+            <div class="subscription-section">
+                <div class="container mb-5 mt-5 ">
+                    <div class="row mb-4">
+                        <div class="col-12">
+                            <h2><strong>Never Miss a Moment in Vietnam</strong></h2>
+                        </div>
+                    </div>
+                    <div class="row align-items-center">
+                        <div class="col-sm-6 text-center">
+                            <img src="sub2.jpg" alt="Woman Drying Vietnam Incense Sticks" class="img-fluid rounded">
+                        </div>
+                        <div class="col-sm-6 bg-custom text-center">
+                            <h4><strong>Stay Connected, Stay Inspired!</strong></h4>
+                            <p>Receive our latest weekly newsletter.</p>
+                            <form id="subscription-form" class="needs-validation" action="/subscribe" method="POST" novalidate onsubmit="return subscribe(event)">
+                                <div class="mb-4 mt-4">
+                                    <label for="email" class="form-label"></label>
+                                    <input type="email" class="form-control" id="email" name="email" placeholder="Enter your email address here" required>
+                                    <div class="invalid-feedback" id="email-feedback"></div>
+                                    <div class="valid-feedback" id="subscription-feedback"></div>
+                                </div>
+                                <button type="submit" class="btn custom-btn">
+                                    Subscribe
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--Testimonials-->
+            <div class="testimonials-section mt-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <h2><strong>What Our Travelers Say</strong></h2>
+                        </div>
+                    </div>
+                    
+                    <div class="row mt-5 mb-5">
+                        <div class="col-md-4">
+                            <div class="testimonial-box p4 mb-3">
+                                <p class="testimonial-text">
+                                    "Vietnam exceeded all my expectations.
+                                    The people are so welcoming, the food is phenomenal, and the landscapes are breathtaking.
+                                    I can't wait to go back!"
+                                </p>
+                                <p class="testimonial-author">
+                                    - Emily R., New York, USA
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="testimonial-box p4 mb-3">
+                                <p class="testimonial-text">
+                                    "A perfect blend of adventure and relaxation.
+                                    From the vibrant cities to the tranquil countryside, Vietnam has something for every traveler."                                </p>
+                                <p class="testimonial-author">
+                                    - Liam S., Sydney, Australia
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="testimonial-box p4 mb-3">
+                                <p class="testimonial-text">
+                                    "Exploring Vietnam was a dream come true.
+                                    The culture, the history, and the experiences are something I'll cherish forever."                                </p>
+                                <p class="testimonial-author">
+                                    - Sophie M., London, UK
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </main>
+        
+        <footer>
+            <div class="about-custom">
+                <div class="container">
+                    <div class="row pt-3 pb-3">
+                        <div class="col-md-5 d-flex flex-column justify-content-center align-items-center">
+                            <div class="d-flex flex-column align-items-center align-items-md-start">
+                                <img src="govnlogo-black.png" alt="Go Vietnam" class="mg-fluid mb-2 mt-2" style="width: 250px;">
+                            </div>
+                        </div>
+    
+                        <div class="col-md-7 mt-4" style="padding: 0 60px;">
+                            <h5 style="font-weight: bold;">Our Vision</h5>
+                            <p>
+                                To be the leading travel consultancy that inspires and guides unforgettable journeys in Vietnam, connecting travelers with the country's rich heritage, diverse cultures, and natural beauty.
+                            </p>
+                            <h5 style="font-weight: bold; padding-top: 5px;">Our Mission</h5>
+                            <p>
+                                To craft personalized travel experiences that immerse our clients in the vibrant culture, stunning landscapes, and warm hospitality of Vietnam, ensuring every trip is unique and memorable.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="copy-custom">
+                <div class="container copy-custom text-white">
+                    <div class="row pt-3">
+                        <div class="col-12 text-center">
+                            <p><em>Copyright &copy; 2024 Go Vietnam. All Rights Reserved.</em></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </footer>
+
+        <script>
+            document.addEventListener('DOMContentLoaded', function () {
+                var dropdowns = document.querySelectorAll('.nav-item.dropdown');
+        
+                dropdowns.forEach(function (dropdown) {
+                    dropdown.addEventListener('click', function (event) {
+                        if (window.innerWidth >= 992) {
+                            window.location.href = this.querySelector('.nav-link').getAttribute('href');
+                        }
+                    });
+                });
+            });
+        </script>
+        
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    </body>
+</html>

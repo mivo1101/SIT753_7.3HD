@@ -1,0 +1,104 @@
+body {
+    font-family: Georgia, Garamond, 'Times New Roman', serif;
+    line-height: 1.3;
+}
+
+header {
+    background-color: black;
+    color: white;
+    padding-top: 13px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.container p {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+}
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    display: none;
+}
+.nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+body {
+    background-color: gold;
+}
+.banner {
+    position: relative;
+    background-image: url(vn\(3\).jpg);
+    background-size: cover;
+    background-position: center;
+    height: 690px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;}
+.banner-text h1 {
+    color: white;
+    font-size: 4rem;
+    font-weight: bold;
+    text-shadow: 5px 5px 7px rgba(0, 0, 0, 0.9);
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.topic-section {
+    margin: 50px 0;
+}
+.topic-section h2 {
+    padding-bottom: 20px;
+    color: black;
+    font-weight: bold;
+    text-shadow: 5px 4px 0px rgba(0, 0, 0, 0.1);
+}
+.custom-card {
+    background-color: white;
+    border: none;
+    text-align: left;
+    overflow: hidden;
+    height: 475px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.custom-card img {
+    height: 200px;
+    object-fit: cover;
+}
+.custom-card:hover {
+    transform: scale(1.05);
+}
+.custom-btn {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+    margin-top: auto;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+.custom-btn:hover {
+    background-color: black;
+    color: gold;
+}
+.text-link {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+}
+
+.copy-custom {
+    background-color: black;
+}

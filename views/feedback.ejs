@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="Chau Tra Mi Vo">
+        <meta name="description" content="Your Experience Matters">
+        <title>Go Vietnam | Feedback</title>
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+
+        <link rel="stylesheet" href="govn-feedback.css">
+        <script src="feedback.js"></script>
+
+    </head>
+    
+    <body>
+        <header>
+            <h6>Here to Help You Every Step of the Way!</h6>
+        </header>
+
+        <!--Navbar-->
+        <!--Navbar-->
+        <nav class="navbar navbar-expand-lg bg-white text-black sticky-top">
+            <div class="container">
+                <a class="navbar-brand d-flex align-items-center text-black active me-4" aria-current="page" href="/home">
+                    <img src="govnlogo-yellow.png" alt="Go Vietnam" width="50" height="30" class="d-inline-block align-text-top me-2">
+                    <strong>Go Vietnam</strong>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link text-black me-2" href="/home">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-black me-2" href="/explore" id="exploreDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Explore Vietnam
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="exploreDropdown">
+                                <li><a class="dropdown-item" href="/explore/north">North</a></li>
+                                <li><a class="dropdown-item" href="/explore/central">Central</a></li>
+                                <li><a class="dropdown-item" href="/explore/south">South</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-black me-2" href="/insights">Insights</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-black me-2" href="/contact" id="contactDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Contact Us
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="contactDropdown">
+                                <li><a class="dropdown-item" href="#getintouch">Get In Touch</a></li>
+                                <li><a class="dropdown-item" href="#request">Request a Custom Itinerary</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-black me-2" href="/feedback">Feedback</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <main>
+            <!--Banner-->
+            <div class="banner-section">
+                <div class="container">
+                    <div class="row">
+                        <h2>Tell Us What You Think</h2>
+                        <p>
+                            <em>We Value Your Feedback!</em>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!--Feedback form-->
+            <div class="feedback-section">
+                <div class="container">
+                    <div class="row text-center">
+                        <div class="col-12">
+                            <p>
+                                Your input helps us improve.
+                                Please take a moment to share your thoughts.
+                            </p>    
+                        </div>
+                    </div>
+
+                    <form id="feedback-form" class="needs-validation" novalidate method="POST" action="/feedback">
+                        <div class="container">
+                            
+                            <!--Personal Information-->
+                            <div class="row mb-3">
+                                <h4>Personal Information</h4>
+                            </div>
+                            <div class="row g-4 mb-4">
+                                <div class="col-md-3">
+                                    <label for="firstname" class="form-label">First Name <span class="text-danger">*</span></label>
+                                    <input type="text" class="form-control" id="firstname" name="firstname" required>
+                                    <div class="invalid-feedback">
+                                        Please enter your first name!
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <label for="email" class="form-label">Email Address <span class="text-danger">*</span></label>
+                                    <input type="email" class="form-control" id="email" name="email" required>
+                                    <div class="invalid-feedback">
+                                        Please enter your email address!
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <label for="nationality" class="form-label">Nationality</label>
+                                    <select class="form-select" id="nationality" name="nationality">
+                                        <option value="" selected disabled>Select Your Nationality</option>
+                                        <option value="Australia">Australia</option>
+                                        <option value="Canada">Canada</option>
+                                        <option value="China">China</option>
+                                        <option value="France">France</option>
+                                        <option value="Germany">Germany</option>
+                                        <option value="Japan">Japan</option>
+                                        <option value="New Zealand">New Zealand</option>
+                                        <option value="South Korea">South Korea</option>
+                                        <option value="United Kingdom">United Kingdom</option>
+                                        <option value="United States">United States</option>
+                                        <option value="Vietnam">Vietnam</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-3">
+                                    <label for="phone" class="form-label">Phone Number</label>
+                                    <input type="tel" class="form-control" id="phone" name="phone" placeholder="Please enter 10 digit numbers">
+                                </div>
+                            </div>
+
+                            <!--Feedback Questions-->
+                            <div class="row mt-4 mb-4">
+                                <h4>Your Feedback</h4>
+                            </div>
+
+                            <!--Likert scale-->
+                            <div class="feedback-grid">
+                                <div class="row mb-4">
+                                    <div class="col-12 col-md-2"></div>
+                                    <div class="col-2 col-md-2 text-center">Very Dissatisfied</div>
+                                    <div class="col-3 col-md-2 text-center">Dissatisfied</div>
+                                    <div class="col-2 col-md-2 text-center">Neutral</div>
+                                    <div class="col-3 col-md-2 text-center">Satisfied</div>
+                                    <div class="col-2 col-md-2 text-center">Very Satisfied</div>
+                                </div>
+                                
+                                <div class="row mb-4">
+                                    <div class="col-12 col-md-2 text-start">Overall Satisfaction <span class="text-danger">*</span></div>
+                                    <div class="col-2 col-md-2 text-center">
+                                        <input class="form-check-input" type="radio" name="overall" id="overall-very-dissatisfied" value="Very Dissatisfied" required>
+                                    </div>
+                                    <div class="col-3 col-md-2 text-center">
+                                        <input class="form-check-input" type="radio" name="overall" id="overall-dissatisfied" value="Dissatisfied">
+                                    </div>
+                                    <div class="col-2 col-md-2 text-center">
+                                        <input class="form-check-input" type="radio" name="overall" id="overall-neutral" value="Neutral">
+                                    </div>
+                                    <div class="col-3 col-md-2 text-center">
+                                        <input class="form-check-input" type="radio" name="overall" id="overall-satisfied" value="Satisfied">
+                                    </div>
+                                    <div class="col-2 col-md-2 text-center">
+                                        <input class="form-check-input" type="radio" name="overall" id="overall-very-satisfied" value="Very Satisfied">
+                                    </div>
+                                </div>
+
+                                <div class="row mb-4">
+                                    <div class="col-12 col-md-2 text-start">Quality of Service <span class="text-danger">*</span></div>
+                                    <div class="col-2 col-md-2 text-center">
+                                        <input class="form-check-input" type="radio" name="quality" id="quality-very-dissatisfied" value="Very Dissatisfied" required>
+                                    </div>
+                                    <div class="col-3 col-md-2 text-center">
+                                        <input class="form-check-input" type="radio" name="quality" id="quality-dissatisfied" value="Dissatisfied">
+                                    </div>
+                                    <div class="col-2 col-md-2 text-center">
+                                        <input class="form-check-input" type="radio" name="quality" id="quality-neutral" value="Neutral">
+                                    </div>
+                                    <div class="col-3 col-md-2 text-center">
+                                        <input class="form-check-input" type="radio" name="quality" id="quality-satisfied" value="Satisfied">
+                                    </div>
+                                    <div class="col-2 col-md-2 text-center">
+                                        <input class="form-check-input" type="radio" name="quality" id="quality-very-satisfied" value="Very Satisfied">
+                                    </div>
+                                </div>
+
+                                <div class="row mb-4">
+                                    <div class="col-12 col-md-2 text-start">Responsiveness <span class="text-danger">*</span></div>
+                                    <div class="col-2 col-md-2 text-center">
+                                        <input class="form-check-input" type="radio" name="responsiveness" id="responsiveness-very-dissatisfied" value="Very Dissatisfied" required>
+                                    </div>
+                                    <div class="col-3 col-md-2 text-center">
+                                        <input class="form-check-input" type="radio" name="responsiveness" id="responsiveness-dissatisfied" value="Dissatisfied">
+                                    </div>
+                                    <div class="col-2 col-md-2 text-center">
+                                        <input class="form-check-input" type="radio" name="responsiveness" id="responsiveness-neutral" value="Neutral">
+                                    </div>
+                                    <div class="col-3 col-md-2 text-center">
+                                        <input class="form-check-input" type="radio" name="responsiveness" id="responsiveness-satisfied" value="Satisfied">
+                                    </div>
+                                    <div class="col-2 col-md-2 text-center">
+                                        <input class="form-check-input" type="radio" name="responsiveness" id="responsiveness-very-satisfied" value="Very Satisfied">
+                                    </div>
+                                </div>
+
+                                <div class="row mb-4">
+                                    <div class="col-12 col-md-2 text-start">Expectations Met <span class="text-danger">*</span></div>
+                                    <div class="col-2 col-md-2 text-center">
+                                        <input class="form-check-input" type="radio" name="expectations" id="expectations-very-dissatisfied" value="Very Dissatisfied" required>
+                                    </div>
+                                    <div class="col-3 col-md-2 text-center">
+                                        <input class="form-check-input" type="radio" name="expectations" id="expectations-dissatisfied" value="Dissatisfied">
+                                    </div>
+                                    <div class="col-2 col-md-2 text-center">
+                                        <input class="form-check-input" type="radio" name="expectations" id="expectations-neutral" value="Neutral">
+                                    </div>
+                                    <div class="col-3 col-md-2 text-center">
+                                        <input class="form-check-input" type="radio" name="expectations" id="expectations-satisfied" value="Satisfied">
+                                    </div>
+                                    <div class="col-2 col-md-2 text-center">
+                                        <input class="form-check-input" type="radio" name="expectations" id="expectations-very-satisfied" value="Very Satisfied">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row g-4 mt-1 mb-4">
+                                <div class="col-md-6">
+                                    <label class="form-label">Would you recommend our custom itinerary planning service to others? <span class="text-danger">*</span></label>
+                                    <div id="recommend" class="form-check-group">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" id="recommend-yes" name="recommend" value="Yes" required>
+                                            <label class="form-check-label" for="recommend-yes">Yes</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" id="recommend-no" name="recommend" value="No" required>
+                                            <label class="form-check-label" for="recommend-no">No</label>
+                                        </div>
+                                    </div>
+                                    <div class="invalid-feedback">
+                                        Please select your answer!
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6">
+                                    <label for="comments" class="form-label">Do you have any additional comments or suggestions for us?</label>
+                                    <textarea class="form-control" id="comments" name="comments" rows="2"></textarea>
+                                </div>
+                            </div>
+
+                            <div class="mt-5 mb-2">
+                                <button type="submit" class="btn btn-custom" onclick="submitFeedback()">Submit Feedback</button>
+                                <button type="reset" class="btn btn-reset-custom" onclick="resetFeedback()">Reset Feedback</button>
+                            </div>                          
+                        </div>
+                    </form>
+                </div>
+            </div>
+            
+        </main>
+
+        <footer>
+            <div class="copy-custom">
+                <div class="container copy-custom text-white">
+                    <div class="row pt-3">
+                        <div class="col-12 text-center">
+                            <p><em>Copyright &copy; 2024 Go Vietnam. All Rights Reserved.</em></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </footer>
+
+        <script>
+            document.addEventListener('DOMContentLoaded', function () {
+                var dropdowns = document.querySelectorAll('.nav-item.dropdown');
+        
+                dropdowns.forEach(function (dropdown) {
+                    dropdown.addEventListener('click', function (event) {
+                        if (window.innerWidth >= 992) {
+                            window.location.href = this.querySelector('.nav-link').getAttribute('href');
+                        }
+                    });
+                });
+            });
+        </script>
+        
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+
+    </body>
+</html>

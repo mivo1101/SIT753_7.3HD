@@ -1,0 +1,50 @@
+{
+    "region_name": "Northern Vietnam",
+    "topSpots": [
+        {
+            "image": "/hanoi.jpg",
+            "name": "Hanoi",
+            "highlight": "The Ancient Capital",
+            "description": "Explore the timeless charm of Hanoi, where ancient temples, and vibrant street life come together.",
+            "link": "/explore/north/hanoi"
+        },
+        {
+            "image": "/halongbay.jpg",
+            "name": "Ha Long Bay",
+            "highlight": "The Natural Wonder",
+            "description": "Discover the beauty of Ha Long Bay, famous for its emerald waters and limestone islands.",
+            "link": ""
+        },
+        {
+            "image": "/sapa.png",
+            "name": "Sapa",
+            "highlight": "The Mountain Retreat",
+            "description": "Escape to the scenic mountains of Sapa, where terraced rice fields offer a picturesque getaway.",
+            "link": "/explore/north/sapa"
+        }
+    ],
+
+    "favorites": [
+        {
+            "image": "/ninhbinh.jpg",
+            "name": "Ninh Binh",
+            "highlight": "The Inland Ha Long",
+            "description": "Journey to Ninh Binh, with stunning karst landscapes, peaceful rivers, and historic pagodas.",
+            "link": ""
+        },
+        {
+            "image": "/bacha.jpg",
+            "name": "Bac Ha",
+            "highlight": "The Colorful Market",
+            "description": "Visit Bac Ha, home to one of the most vibrant markets in Vietnam, where ethnic communities gather.",
+            "link": ""
+        },
+        {
+            "image": "/maichau.jpg",
+            "name": "Mai Chau",
+            "highlight": "The Tranquil Valley",
+            "description": "Mai Chau offers a peaceful valley surrounded by lush greenery and terraced rice fields.",
+            "link": ""
+        }
+    ]
+}

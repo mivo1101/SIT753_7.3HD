@@ -1,0 +1,167 @@
+body {
+    font-family: Georgia, Garamond, 'Times New Roman', serif;
+    line-height: 1.3;
+}
+
+header {
+    background-color: black;
+    color: white;
+    padding-top: 13px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.container p {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-top: 10px;
+}
+
+.container h3, h5 {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+hr {
+    border: none;
+    height: 10px;
+    background-color: gold;
+    margin-bottom: 30px;
+}
+
+#attractions img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+}
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    display: none;
+}
+.nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.breadcrumb-item a {
+    color: black;
+    cursor: pointer;
+}
+
+.banner-section {
+    background-size: cover;
+    height: 270px;
+    padding: 15px 0;
+    text-align: center;
+}
+.banner-section h1 {
+    font-weight: bold;
+    font-size: 130px;
+    margin-bottom: 15px;
+}
+.banner-section h1:hover {
+    color: gold;
+    text-shadow: 8px 8px 3px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, text-shadow 0.3s ease;
+}
+
+#table-of-contents {
+    color: black;
+    border-radius: 10px;
+}
+
+#table-of-contents a {
+    text-decoration: none;
+    color: black;
+}
+
+#table-of-contents a:hover {
+    color: gold;
+    font-size: 1.2rem;
+    font-weight: bold;
+    transition: font-size 0.3s ease, font-weight 0.3s ease, color 0.3s ease;
+}
+
+#conclusion {
+    border-left: 5px solid black;
+    padding-left: 20px;
+}
+
+.col-md-8 {
+    padding-right: 50px;
+}
+
+#recommendation {
+    padding: 30px 30px;
+    border-radius: 10px;
+}
+
+#recommendation p {
+    margin: 20px 0;
+}
+
+.custom-card {
+    background-color: white;
+    border-bottom: 7px solid black;
+    text-align: left;
+    overflow: hidden;
+    height: 435px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.custom-card img {
+    height: 150px;
+    object-fit: cover;
+}
+.custom-card:hover {
+    transform: scale(1.05);
+}
+.custom-btn {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+    margin-top: auto;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+.custom-btn:hover {
+    background-color: black;
+    color: gold;
+}
+
+.request {
+    background-color: gold;
+    color: black;
+    text-align: center;
+    padding: 40px 0;
+    margin-top: 30px;
+}
+.request h2 {
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.request-link {
+    color: black;
+    text-decoration: none;
+    font-weight: normal;
+    transition: font-size 0.3s ease, font-weight 0.3s ease, color 0.3s ease;
+}
+.request-link:hover {
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-shadow: 4px 2px 6px rgba(0, 0, 0, 0.9);
+}
+
+.copy-custom {
+    background-color: black;
+}

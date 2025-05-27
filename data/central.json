@@ -1,0 +1,50 @@
+{
+    "region_name": "Central Vietnam",
+    "topSpots": [
+        {
+            "image": "/hue.jpg",
+            "name": "Hue",
+            "highlight": "The Imperial City",
+            "description": "Discover the rich history of Hue, home to the ancient Nguyen Dynasty, with its majestic citadels, royal tombs, and Huong River.",
+            "link": ""
+        },
+        {
+            "image": "/danang.jpg",
+            "name": "Da Nang",
+            "highlight": "The Coastal Gem",
+            "description": "Enjoy the vibrant city of Da Nang, known for its stunning beaches, the Marble Mountains, and the iconic Dragon Bridge.",
+            "link": ""
+        },
+        {
+            "image": "/hoian.jpg",
+            "name": "Hoi An",
+            "highlight": "The Lantern Town",
+            "description": "Wander through the streets of Hoi An, a UNESCO World Heritage site, famous for its well-preserved ancient town and colorful lanterns.",
+            "link": "/explore/central/hoian"
+        }
+    ],
+
+    "favorites": [
+        {
+            "image": "/phongnha-kebang.jpg",
+            "name": "Phong Nha",
+            "highlight": "The Cave Paradise",
+            "description": "Explore the breathtaking Phong Nha-Ke Bang National Park, home to some of the world’s spectacular caves and underground rivers.",
+            "link": ""
+        },
+        {
+            "image": "/nhatrang.jpg",
+            "name": "Nha Trang",
+            "highlight": "The Beach Haven",
+            "description": "Relax in Nha Trang, a coastal city renowned for its beautiful beaches, clear waters, and vibrant marine life.",
+            "link": ""
+        },
+        {
+            "image": "/dalat.jpeg",
+            "name": "Da Lat",
+            "highlight": "The City of Eternal Spring",
+            "description": "Experience the cool climate and picturesque landscapes of Dalat, known for its flower gardens, and waterfalls.",
+            "link": "/explore/central/dalat"
+        }
+    ]
+}

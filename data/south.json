@@ -1,0 +1,50 @@
+{
+    "region_name": "Southern Vietnam",
+    "topSpots": [
+        {
+            "image": "/hcm.jpg",
+            "name": "Ho Chi Minh City",
+            "highlight": "The Bustling Metropolis",
+            "description": "Explore Vietnam's largest city, where modern skyscrapers meet historic landmarks and a thriving food scene.",
+            "link": "/explore/south/hcmc"
+        },
+        {
+            "image": "/phuquoc.jpg",
+            "name": "Phu Quoc",
+            "highlight": "The Island Paradise",
+            "description": "Relax on pristine beaches, enjoy the crystal-clear waters, and explore the rich marine life of this beautiful tropical island.",
+            "link": "/explore/south/phuquoc"
+        },
+        {
+            "image": "/muine-carousel.png",
+            "name": "Mui Ne",
+            "highlight": "The Sand Dune Haven",
+            "description": "Famous for its red and white sand dunes, Mui Ne offers a picturesque coastal experience with adventure sports.",
+            "link": ""
+        }
+    ],
+
+    "favorites": [
+        {
+            "image": "/condao-carousel.jpg",
+            "name": "Con Dao",
+            "highlight": "The Hidden Archipelago",
+            "description": "Visit Con Dao, a group of islands with a rich history, beautiful beaches, and some of the best diving spots in Vietnam.",
+            "link": ""
+        },
+        {
+            "image": "/mekong.jpg",
+            "name": "Mekong Delta",
+            "highlight": "The River Wonderland",
+            "description": "Experience floating markets of the Mekong Delta, a region known for its intricate network of rivers and canals.",
+            "link": ""
+        },
+        {
+            "image": "/cantho.jpg",
+            "name": "Can Tho",
+            "highlight": "The Heart of the Delta",
+            "description": "Discover Can Tho, the largest city in the Mekong Delta, known for its bustling floating markets and picturesque riverside promenades.",
+            "link": ""
+        }
+    ]
+}

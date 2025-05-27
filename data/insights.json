@@ -1,0 +1,107 @@
+{
+    "eating": [
+      {
+        "title": "Top Street Foods You Must Try in Vietnam",
+        "image": "banhmi.jpeg",
+        "description": "Explore the must-try street foods in Vietnam, from crispy Bánh Mì to steaming Phở, and discover why these flavors are a favorite for both locals and visitors alike.",
+        "link": "#"
+      },
+      {
+        "title": "Classic Vietnamese Dishes You Need to Know",
+        "image": "Comtam-carousel.jpeg",
+        "description": "Dive into Vietnam’s most beloved traditional dishes like Bún Bò Huế and Cơm Tấm, and learn what makes these recipes timeless staples of Vietnamese cuisine.",
+        "link": "/explore/north"
+      },
+      {
+        "title": "Exploring Regional Flavors of Vietnam",
+        "image": "phoga.jpg",
+        "description": "Take a culinary tour across Vietnam’s regions, tasting the unique dishes from North to South, and uncover what makes each region’s cuisine truly special.",
+        "link": "#"
+      }
+    ],
+
+    "drinking": [
+      {
+        "title": "Vietnam’s Coffee Culture: A Sip of Tradition",
+        "image": "coffee-carousel.jpg",
+        "description": "Uncover the rich history and unique flavors of Vietnamese coffee, from the iconic Ca Phe Sua Da to the lesser-known Egg Coffee, and see why it’s a daily ritual for millions.",
+        "link": "#"
+      },
+      {
+        "title": "The Art of Brewing: Traditional Vietnamese Teas",
+        "image": "greentea.jpg",
+        "description": "Explore the world of Vietnamese teas, from the delicate Lotus Tea to the earthy flavors of Green Tea, and learn how these brews have been cherished for centuries.",
+        "link": "/explore/north"
+      },
+      {
+        "title": "Must-Try Local Drinks Beyond Coffee and Tea",
+        "image": "sinhto.jpg",
+        "description": "Discover Vietnam’s lesser-known beverages, from refreshing Sugarcane Juice to the fruity sweetness of Sinh Tố, and see how these drinks offer a true taste of local life.",
+        "link": "#"
+      }
+    ],
+
+    "landscapes": [
+        {
+          "title": "Best Beaches to Relax and Unwind in Vietnam",
+          "image": "phuquoc.jpg",
+          "description": "Find your perfect beach in Vietnam, from the soft sands of Phu Quoc to the peaceful waters of Nha Trang. Discover where you can soak up the sun and enjoy stunning coastal views.",
+          "link": "#"
+        },
+        {
+          "title": "Must-See Mountains and Ranges in Vietnam",
+          "image": "sapa.png",
+          "description": "Explore Vietnam’s most impressive mountains, from the dramatic peaks of Sapa to the lush hills of the Central Highlands. These majestic landscapes are perfect for adventure and awe.",
+          "link": "/explore/north"
+        },
+        {
+          "title": "Amazing Lakes and Waterfalls to Visit in Vietnam",
+          "image": "babe.jpg",
+          "description": "Experience the beauty of Vietnam’s lakes and waterfalls. From the tranquil Ba Be Lake to the breathtaking Pongour Falls, these natural spots are ideal for nature enthusiasts and peaceful retreats.",
+          "link": "#"
+        }
+      ],
+      
+      "tips": [
+        {
+          "title": "How to Cross the Street Safely in Vietnam",
+          "image": "traffic.jpeg",
+          "description": "Master the art of crossing busy streets in Vietnam with these simple tips. Learn how to navigate traffic confidently and stay safe while experiencing the hustle and bustle of Vietnamese cities.",
+          "link": "#"
+        },
+        {
+          "title": "Essential Vietnamese Phrases for Travelers",
+          "image": "foreigner.jpg",
+          "description": "Communicate more effectively with locals using these key Vietnamese phrases. From ordering food to asking for directions, these phrases will make your interactions smoother and more enjoyable.",
+          "link": "/explore/north"
+        },
+        {
+          "title": "Top Ride-Hailing Apps to Use in Vietnam",
+          "image": "grab.jpg",
+          "description": "Navigate Vietnam’s cities with ease using these popular ride-hailing apps. Discover the best platforms for getting around, from Grab to Xanh SM, and tips for a smooth ride experience.",
+          "link": "#"
+        }
+      ],
+
+      "festivals": [
+        {
+          "title": "Tet - The Vietnamese Lunar New Year",
+          "image": "tet.jpg",
+          "description": "Discover the traditions and customs of Tet, Vietnam’s Lunar New Year. From family gatherings to vibrant street festivities, experience the heart of Vietnam’s most cherished celebration.",
+          "link": "#"
+        },
+        {
+          "title": "Mid-Autumn Festival - A Moonlit Celebration",
+          "image": "mid-autumn.jpg",
+          "description": "Uncover the charm of Vietnam's Mid-Autumn Festival. Enjoy mooncakes, admire lanterns, and learn about the rich traditions that make this festival a beloved event for families.",
+          "link": "/explore/north"
+        },
+        {
+          "title": "Hue Festival - A Cultural Extravaganza",
+          "image": "hue-fes.jpg",
+          "description": "Dive into the vibrant Hue Festival, a grand showcase of Vietnam’s heritage. From traditional performances to colorful parades, witness the essence of Vietnamese culture.",
+          "link": "#"
+        }
+      ]
+  }
+  
