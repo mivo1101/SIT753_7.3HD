@@ -28,6 +28,10 @@ app.use(express.static(path.join(__dirname, 'public_html')));
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
+app.get('/', (req, res) => {
+    res.render('home');
+});
+
 app.get('/home', (req, res) => {
     res.render('home');
 });
