@@ -6,7 +6,7 @@ USER root
 
 # Install Docker CLI (from previous steps)
 RUN apt-get update && \
-    apt-get --no-install-recommends install -y build-essential \
+    apt-get install -y \
     apt-transport-https \
     ca-certificates \
     curl \
