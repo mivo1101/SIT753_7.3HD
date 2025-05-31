@@ -1,8 +1,8 @@
 version: '3.8'
 services:
   shopping-website:
-    image: shopping-website:latest
-    container_name: shopping-website
+    image: govietnam-website:latest
+    container_name: govietnam-website
     ports:
       - "3000:3000"
     environment:
