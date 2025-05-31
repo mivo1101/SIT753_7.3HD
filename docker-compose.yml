@@ -1,6 +1,9 @@
 version: '3.8'
 services:
   govietnam-website:
+    build:
+      context: .
+      dockerfile: Dockerfile
     image: govietnam-website:latest
     container_name: govietnam-website
     ports:
