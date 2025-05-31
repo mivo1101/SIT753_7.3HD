@@ -14,7 +14,7 @@ COPY package*.json ./
 RUN npm install && npm rebuild sqlite3 --build-from-source --napi_build_version=8
 
 # Copy application code
-COPY . .
+ADD . /app
 
 # Expose port
 EXPOSE 3000
