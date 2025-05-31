@@ -11,7 +11,7 @@ RUN apt-get update && apt-get install -y python3 make g++ && rm -rf /var/lib/apt
 COPY package*.json ./
 
 # Install dependencies and rebuild native modules
-RUN npm install && npm rebuild sqlite3 bcrypt --build-from-source
+RUN npm install && npm rebuild sqlite3 --build-from-source
 
 # Copy application code
 COPY . .
