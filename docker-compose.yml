@@ -1,6 +1,6 @@
 version: '3.8'
 services:
-  shopping-website:
+  govietnam-website:
     image: govietnam-website:latest
     container_name: govietnam-website
     ports:
